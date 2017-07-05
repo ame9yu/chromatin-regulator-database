@@ -1,0 +1,9 @@
+{% if result %}
+    <ul>
+    {% for cr in result %}
+        <li> {{cr.gene_symbol}} </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Chromatin Regulators are available.</p>
+{% endif %}
