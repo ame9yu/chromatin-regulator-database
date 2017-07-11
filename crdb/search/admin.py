@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
 from django.contrib import admin
 
-from .models import chromatin_regulator
-
-admin.site.register(chromatin_regulator)
+from .models import chromatin_regulators
+# Register your models here.
+admin.site.register(chromatin_regulators)
